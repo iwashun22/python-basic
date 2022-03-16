@@ -12,4 +12,4 @@ num1 = 123
 num2 = 0.1281
 
 # boolean
-is_male = True
+is_male = True # Start with capital letter
