@@ -10,7 +10,10 @@ print("Bye")
 # Hello User!
 # Bye
 
+
+# with parameter
 def sayhi_to(name):
    print("Hello " + name + "!")
 
 sayhi_to("Mike")
+sayhi_to("Sarah")
