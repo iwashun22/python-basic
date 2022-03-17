@@ -18,5 +18,5 @@ def tall_male(is_tall, is_male):
    else:
       print("You are a short woman")
 
-tall_male(True, False)
-tall_male(True, True)
+tall_male(True, False) # You are a tall woman
+tall_male(True, True) # You are a tall man
