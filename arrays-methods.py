@@ -7,8 +7,43 @@ print(all_nums)
 
 people = ["Sean", "Josh", "Luke"]
 
+# find index (error if not found)
+print(people.index("Luke")) # 2
+
 # push the element
 people.append("Daniel")
 print(people) # ["Sean", "Josh", "Luke", "Daniel"]
 
-print(people.insert(2))
+# apply new element in index provided
+people.insert(2, "Paul")
+print(people) # ['Sean', 'Josh', 'Paul', 'Luke', 'Daniel']
+
+# remove
+people.remove("Sean")
+print(people) # ['Josh', 'Paul', 'Luke', 'Daniel']
+
+# remove last element
+people.pop()
+print(people) # ['Josh', 'Paul', 'Luke']
+
+# remove the element by index provided
+people.pop(1)
+print(people) #['Josh', 'Luke']
+
+# remove all the elements
+people.clear()
+print(people) # []
+
+dice_roll = [1, 4, 3, 5, 3, 3, 2, 6, 1, 3]
+# count how many elements
+print(dice_roll.count(3)) # 4
+
+random_text = ["Sound", "Music", "Apple", "Academy", "Corn", "Javascript", "Jack", "Client", "Extreme"]
+
+# sort (Alphabet order, numeral order)
+random_text.sort()
+print(random_text)
+# ['Academy', 'Apple', 'Client', 'Corn', 'Extreme', 'Jack', 'Javascript', 'Music', 'Sound']
+
+dice_roll.sort()
+print(dice_roll) # [1, 1, 2, 3, 3, 3, 3, 4, 5, 6]
