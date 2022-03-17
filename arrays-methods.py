@@ -6,6 +6,9 @@ all_nums.extend(random_nums)
 print(all_nums)
 
 people = ["Sean", "Josh", "Luke"]
+
 # push the element
 people.append("Daniel")
 print(people) # ["Sean", "Josh", "Luke", "Daniel"]
+
+print(people.insert(2))
