@@ -42,12 +42,18 @@ random_text = ["Sound", "Music", "Apple", "Academy", "Corn", "Javascript", "Jack
 
 # sort (Alphabet order, numeral order)
 random_text.sort()
-print(random_text)
-# ['Academy', 'Apple', 'Client', 'Corn', 'Extreme', 'Jack', 'Javascript', 'Music', 'Sound']
-
+print(random_text) # ['Academy', 'Apple', 'Client', 'Corn', 'Extreme', 'Jack', 'Javascript', 'Music', 'Sound']
 dice_roll.sort()
 print(dice_roll) # [1, 1, 2, 3, 3, 3, 3, 4, 5, 6]
 
-# sort in reverse order
+# reverse (not sorting)
 dice_roll.reverse()
-print(dice_roll)
+print(dice_roll) # [6, 5, 4, 3, 3, 3, 3, 2, 1, 1]
+
+alphabet = ["A", "C", "D", "B"]
+alphabet.reverse()
+print(alphabet) # ['B', 'D', 'C', 'A']
+
+# copy
+alphabet2 = alphabet.copy()
+print(alphabet2) # ['B', 'D', 'C', 'A']
