@@ -1,3 +1,4 @@
+# string can be single quote or double quotes
 copyright = "\n\n© Micheal"
 
 print("Hello\n\"World\"")
