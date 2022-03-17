@@ -47,3 +47,7 @@ print(random_text)
 
 dice_roll.sort()
 print(dice_roll) # [1, 1, 2, 3, 3, 3, 3, 4, 5, 6]
+
+# sort in reverse order
+dice_roll.reverse()
+print(dice_roll)
