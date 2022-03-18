@@ -10,4 +10,4 @@ while guess_word != word and count_limit < limit:
 if guess_word == word:
    print("You win!")
 else:
-   print("Out of guess, you lose")
+   print("Out of guesses, you lose")
