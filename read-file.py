@@ -1,9 +1,9 @@
 
 # "r" for read mode
-test_file = open("./test.txt", "r")
+read_file = open("./read.txt", "r")
 
 # code goes here
-print(test_file.readable()) # true <- mode is "r" which is read
+print(read_file.readable()) # true <- mode is "r" which is read
 
 # read all of the content
 # print(test_file.read())
@@ -12,10 +12,10 @@ print(test_file.readable()) # true <- mode is "r" which is read
 # print(test_file.readline())
 
 # Put each line to an array
-content_lists = test_file.readlines()
+content_lists = read_file.readlines()
 for i in range(len(content_lists)):
    print("line " + str(i + 1) + ": " + content_lists[i])
 
 
 # needs to close the file
-test_file.close()
+read_file.close()
