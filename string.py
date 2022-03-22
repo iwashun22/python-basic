@@ -52,4 +52,11 @@ print(phrase.lower().replace("is", "lol")) # thlol lol awesome
 word = "Python"
 print(f"{word} is fun!") # Python is fun!
 
-print(f"Length of word \"Python\": {len(word)}")
+print(f"length: {len(word)}")
+print(f"slice: {word[:2]}")
+
+# 10 spaces to the right
+print(f"\'{word:>10s}\'")
+
+# 10 spaces around middle
+print(f"\'{word:^10s}\'")

@@ -26,3 +26,10 @@ print(min(4, 7)) # 4
 
 decimal = 15.8
 print(round(decimal)) # 16
+
+# Format
+
+pi = 3.14159265359
+
+# print until 2nd decimal place
+print(f"π = {pi:.2f}")
