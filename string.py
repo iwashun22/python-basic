@@ -7,8 +7,9 @@ print(copyright)
 # multiple line string
 # forward slash is to not make a new line
 print("""Line 1
-line \
-2""")
+Line \
+2""") # Line 1
+      # Line 2
 
 phrase = "This iS AwESoMe"
 print(phrase.lower()) # this is awesome
