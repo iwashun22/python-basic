@@ -32,6 +32,10 @@ print(phrase[:4]) # This
 # this will print the 2nd index from backward
 print(phrase[-2]) # M
 
+# can not reassign the string by index
+#  phrase[0] = "t" # <- Error
+
+
 # find the first index that contain in the parameter
 print(phrase.index("i")) # 2 
 print(phrase.lower().index("awesome")) # 8
