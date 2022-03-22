@@ -26,6 +26,9 @@ print(phrase[8]) # A
 # ** this will not include index 3
 print(phrase[1:3]) # hi
 
+# first index can be omit
+print(phrase[:4]) # This
+
 # this will print the 2nd index from backward
 print(phrase[-2]) # M
 
