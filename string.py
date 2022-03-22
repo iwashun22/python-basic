@@ -4,6 +4,12 @@ copyright = "\n\n© Micheal"
 print("Hello\n\"World\"")
 print(copyright)
 
+# multiple line string
+# forward slash is to not make a new line
+print("""Line 1
+line \
+2""")
+
 phrase = "This iS AwESoMe"
 print(phrase.lower()) # this is awesome
 
@@ -14,6 +20,9 @@ print(phrase.upper().isupper()) # True
 print(len(phrase)) # 15
 
 print(phrase[8]) # A
+
+# this will print the 2nd index from backward
+print(phrase[-2]) # M
 
 # find the first index that contain in the parameter
 print(phrase.index("i")) # 2 
