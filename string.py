@@ -35,6 +35,10 @@ print(phrase[-2]) # M
 # can not reassign the string by index
 #  phrase[0] = "t" # <- Error
 
+# can reassign by this way
+phrase = 't' + phrase[1:]
+print(phrase) # this iS AwESoMe
+
 
 # find the first index that contain in the parameter
 print(phrase.index("i")) # 2 
