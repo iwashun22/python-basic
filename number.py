@@ -33,3 +33,6 @@ pi = 3.14159265359
 
 # print until 2nd decimal place
 print(f"π = {pi:.2f}")
+
+# set max digits to 10 and replace with blank space when short
+print(f"π has a value of {pi:10.2f}")
