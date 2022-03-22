@@ -46,3 +46,8 @@ print(phrase.lower().index("awesome")) # 8
 
 print(phrase.replace("e", "x")) # This iS AwESoMx
 print(phrase.lower().replace("is", "lol")) # thlol lol awesome
+
+
+# Format
+word = "Python"
+print(f"{word} is fun!") # Python is fun!
