@@ -51,3 +51,5 @@ print(phrase.lower().replace("is", "lol")) # thlol lol awesome
 # Format
 word = "Python"
 print(f"{word} is fun!") # Python is fun!
+
+print(f"Length of word \"Python\": {len(word)}")
