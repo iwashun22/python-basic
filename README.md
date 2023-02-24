@@ -4,3 +4,5 @@
 ```sh
 jupyter notebook
 ```
+
+> open [python-jupyter.ipynb](./python-jupyter.ipynb)
