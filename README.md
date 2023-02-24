@@ -5,4 +5,6 @@
 jupyter notebook
 ```
 
-> open [python-jupyter.ipynb](./python-jupyter.ipynb)
+> open 
+> - [arrays.ipynb](./arrays.ipynb)
+> - [dictionary.ipynb](./dictionary.ipynb)
