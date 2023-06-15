@@ -9,7 +9,7 @@ separate()
 # Loop through array
 hobbies = ["Basketball", "Chess", "Drawing"]
 for hobby in hobbies:
-   print(hobby)
+   print(f"{hobby}: {len(hobby)}")
 separate()
 
 # Loop with number
