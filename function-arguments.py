@@ -13,6 +13,8 @@ def square(x):
   return square
 
 print(square(3)) # 9
+# print out document
+print(square.__doc__)
 
 # set default value
 def custom_print(txt="Hello World", suffix="!"):
@@ -35,6 +37,7 @@ custom_print("what", "?") # expect: what?
 custom_print(suffix=",") # expect: Hello World,
 
 # FIXME: when you provide the arguments without in order, you need to specify or else get an error.
-custom_print(suffix="!!", "Some Text") # error
+"  ↓↓↓↓↓↓↓↓↓↓↓  "
+# custom_print(suffix="!!", "Some Text") # error
 
 custom_print(suffix="!!", txt="Success") # expect: Success!!
